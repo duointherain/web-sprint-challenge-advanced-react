@@ -42,6 +42,6 @@ test("form header renders", () => {
   
     fireEvent.click(checkoutButton);
   
-    const successMessage = screen.getByText(/woo-hoo/i);
+    const successMessage = screen.getByText(/win win/i);
     expect(successMessage).toBeVisible();
   });
